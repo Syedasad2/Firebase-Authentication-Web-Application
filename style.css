@@ -1,0 +1,100 @@
+/* Styles Of UI */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+/* Form styling */
+#auth_container, #user_container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+input[type="email"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #f31a07;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* User info styling */
+#user_container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user_email {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#logout_btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#logout_btn:hover {
+    background-color: #e1d7d7;
+}
